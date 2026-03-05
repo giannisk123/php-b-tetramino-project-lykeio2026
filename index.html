@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="./src/homepage/style.css">
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Σχολικό ημερολόγιο</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id = "completedNote"></div>
+
+        <header class="page-header">
+            <h1 style="color: rgb(255, 255, 255); background-color:rgb(59, 130, 246);">ΣΧΟΛΙΚΟ ΗΜΕΡΟΛΟΓΙΟ 2025-2026</h1>
+        </header>
+
+        <div id="calendarContainer"></div>
+
+        <script type="module" ; src="./src/homepage/generateCalendar.js"> </script>
+
+    </div>
+
+    <div style="justify-content: center; align-items: center; display:flex;">
+        <form action="./src/notelist/notelist.php">
+            <input class = "generic" type="submit" value="Λίστα">
+        </form>
+    </div>
+
+</body>
+
+</html>

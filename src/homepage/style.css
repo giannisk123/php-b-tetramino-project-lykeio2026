@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.container {
+  width: 50%;
+  margin: 20px auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* day cells */
+
+a.dayCell {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1.3em;
+  text-decoration: none;
+  color: rgb(59, 130, 246)
+}
+
+.calendar {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  margin-bottom: 40px;
+}
+
+.calendar th,
+.calendar td {
+  border: 1px solid black;
+  text-align: center;
+  padding: 4px; 
+  font-size: 1em;
+}
+
+.month-title {
+  font-weight: bold;
+  height: 30px;
+  color: rgb(59, 130, 246);
+  text-decoration: underline;
+}
+
+.weekday {
+  width: 40px;
+  font-weight: bold;
+}
+
+input.generic {
+    width: 10rem;
+    height: 3rem;
+}

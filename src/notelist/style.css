@@ -1,0 +1,22 @@
+table {
+    table-layout: fixed;
+    width: 50rem;
+}
+
+td {
+    white-space: pre-wrap; /* respects newlines and wraps long lines */
+}
+
+td.simiosi {
+    font-family: 'Segoe UI';
+    line-height: 1.2; /* smaller line spacing, default is ~1.4-1.5 */
+}
+
+td.title {
+    font-weight: bold;
+}
+
+input.generic {
+    width: 10rem;
+    height: 3rem;
+}

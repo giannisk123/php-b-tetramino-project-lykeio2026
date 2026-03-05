@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: auto;
+}
+
+.button {
+    width: 10rem;
+    height: 3rem;
+    font-size:1em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+th.title {
+    text-align: top;
+    width:0.15em;
+}
+
+
+
+td.dateContent {
+    width: 0.15em;
+    align-self: flex-start;
+
+    text-align: left;
+    border-style:solid;
+    border-width: 0.15em;
+}
+
+td.simioseisContent {
+    width: 1.2em;
+    height: 0.3em;
+    align-self: flex-start;
+
+    text-align: left;
+    border-style:solid;
+    border-width: 0.15em;
+}
